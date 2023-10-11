@@ -1,18 +1,323 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gabarito', sans-serif;
 }
 
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Gabarito', sans-serif;
+    color:black;
 }
 
 .my-paragraph {
     font-family: 'Gabarito', sans-serif;
     font-size: 25px;
     color: lightslategray;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: color #00dcf0;;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 50;
+}
+
+nav > a:hover{
+    color: darkred;
+}
+
+.landing h1 {
+    font-size: 50px; 
+    font-weight: bold; 
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+    top: 0;
+    z-index: 5;
+}
+
+img{
+    width: 450px;
+}
+
+.bttnInfo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(96, 232, 244); 
+    color: #fff; 
+    border: 1px solid rgb(96, 232, 244); 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.bttnInfo:hover {
+    background-color: rgb(6, 92, 100); 
+    color: #fff; 
+}
+
+/* Untuk kotak "Contact Us" */
+.bttnContact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(96, 232, 244); /* Warna latar belakang awal */
+    color: #fff; /* Warna teks awal */
+    border: 1px solid rgb(96, 232, 244); /* Warna border awal */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi perubahan warna */
+}
+
+.bttnContact:hover {
+    background-color: rgb(6, 92, 100); /* Warna latar belakang saat dihover */
+    color: #fff; /* Warna teks saat dihover */
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px; 
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.merged-text {
+    display: inline;
+}
+
+.merged-text h1,
+.merged-text p {
+    display: inline;
+    margin-right: 10px; 
+}
+.page3 {
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+}
+
+.h1-3 {
+    font-weight: 600;
+    width: 550px;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.h2-3 {
+    color: gray;
+    font-weight: 300;
+    width: 600px;
+}
+
+.button-contactUs3 {
+    background-color: aqua;
+    color: white;
+    border: 2px solid aqua;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin-right: 100px;
+    float: right;
+}
+
+.button-contactUs3:hover {
+    background-color: rgb(6, 92, 100);
+    color: white;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.list-info {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-info {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.kartu-info img {
+    width: 100%;
+}
+
+.kartu-info h3 {
+    text-align: center;
+    color: black;
+    font-weight: 800;
+}
+
+.kartu-info h6 {
+    color: gray;
+    font-weight: 600;
+}
+
+.h1-4 {
+    margin-left: 100px;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 550px;
+    font-size: 50px;
+}
+
+.h2-4 {
+    padding: 0 20px;
+    margin-left: 100px;
+    margin-bottom: 75px;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    font-weight: 300;
+    width: 1000px;
+}
+
+.form {
+    margin-left: 120px;
+    width: 37%;
+    border: 3px solid aqua;
+    height: 480px;
+}
+
+form table {
+    width: 100%;
+}
+
+.h1-table {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+table tr {
+    width: 100%;
+}
+
+table tr label {
+    padding: 5px 0;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form input {
+    border-style: none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    width: 210px;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.table-data {
+    padding-left: 25px;
+}
+
+.table-data #message {
+    width: 470px;
+}
+
+#submit {
+    margin: 0 25px;
+    width: 435px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 0;
+}
+
+#submit:hover {
+    background-color: blue;
+}
+
+.iframe-side {
+    margin-right: 120px;
+    width: 40%;
+    height: auto;
+}
+
+.h1-iframe {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-iframe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    position: relative;
+    background-color: aqua;
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.h1-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-left: 120px;
+    margin-bottom: 5px;
+}
+
+.h2-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    width: 300px;
+    margin-left: 120px;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
 }
