@@ -68,21 +68,20 @@ img{
     color: #fff; 
 }
 
-/* Untuk kotak "Contact Us" */
 .bttnContact {
     display: inline-block;
     padding: 10px 20px;
-    background-color: rgb(96, 232, 244); /* Warna latar belakang awal */
-    color: #fff; /* Warna teks awal */
-    border: 1px solid rgb(96, 232, 244); /* Warna border awal */
+    background-color: rgb(96, 232, 244); 
+    color: #fff; 
+    border: 1px solid rgb(96, 232, 244);
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s; /* Efek transisi perubahan warna */
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .bttnContact:hover {
-    background-color: rgb(6, 92, 100); /* Warna latar belakang saat dihover */
-    color: #fff; /* Warna teks saat dihover */
+    background-color: rgb(6, 92, 100); 
+    color: #fff; 
 }
 
 .landing {
